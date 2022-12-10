@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #3581B8;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      .contents {
+        display: flex;
+        flex-direction: column;
+      }
+      h1 {
+        color: white;
+        transform: translateY(-100px);
+        text-align: center;
+      }
+      span {
+        border-radius: 50px;
+      }
+      .loader {
+        position: relative;
+        display: flex;
+      }
+      .loader span {
+        width: 25px;
+        height: 150px;
+        margin: 0 30px;
+        background: #3581B8;
+        animation: animate 2.5s linear infinite;
+      }
+      .loader span:nth-child(1) {
+        animation-delay: 0s;  
+      }
+      .loader span:nth-child(2) {
+        animation-delay: 0.2s;  
+      }
+      .loader span:nth-child(3) {
+        animation-delay: 0.4s;  
+      }
+      .loader span:nth-child(4) {
+        animation-delay: 0.6s;  
+      }
+      .loader span:nth-child(5) {
+        animation-delay: 0.8s;  
+      }
+      
+    
+      @keyframes animate {
+        0% {
+          box-shadow: 0 0 0 #111;
+          opacity: 0;
+          transform: translateX(-50px) scale(1);;
+        }
+        50% {
+          box-shadow: 0 20px 50px #111;
+          opacity: 1;
+          transform: translateX(0px) scale(2.5)
+          
+        }
+        100% {
+          box-shadow: 0 0 #111;
+          opacity: 0;
+          transform: translateX(50px) scale(1);
+        }
+      }
+    </style>   
+    
+    <title>Ryan Bills</title>
+      <meta http-equiv = "refresh" content = "5; url = https://ryanresume-2c81e.web.app/" />
+   </head>
+   
+   <body>
+    <div class="contents">
+      <div>
+        <h1>Redirecting...</h1>
+      </div>
+      
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+  </div>
+  </body>
+</html>
