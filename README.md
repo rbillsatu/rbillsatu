@@ -1,4 +1,4 @@
 # rbillsatu
 
-This page used for re-direction to Resume Webapp
-Author: Ryan Bills
+Welcome to Ryan Bills Github account.
+Please feel free to reach out to me anytime!
